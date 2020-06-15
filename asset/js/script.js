@@ -5,10 +5,22 @@ const h =document.getElementById("h1");
 
 
 function myfunc(){
-    if (inp1.value==" "||inp2.value==" ") {
+    if (inp1.value==""||inp2.value=="") {
         
-        h.innerHTML="Pls Fill";
+        inp1.style.borderBottom="2px solid red";
+        inp2.style.borderBottom="2px solid red";
+        h.style.textDecoration="none";
+        h.style.color="red";
+
+        h.innerHTML="Pls Fill The Input Box"
+
     }
+    else{
+        h.style.textDecoration="underline";
+        inp1.style.borderBottom="1px solid rgba(110, 106, 106, 0.726)";
+        inp2.style.borderBottom="1px solid rgba(110, 106, 106, 0.726)";
+        h.style.color="rgb(6, 112, 173)";
+        h.style.transition="none";
 let result =Number(inp1.value)+Number(inp2.value);
 h.innerHTML="Your Result Is :"+result;
 console.log(result);
@@ -40,5 +52,5 @@ let com=setInterval(() => {
     clearInterval(com);
 }, 2000);
 
-
+    }
 }

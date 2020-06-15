@@ -33,7 +33,7 @@ input{
     outline: none;
     border: none;
     border-bottom: 1px solid rgba(110, 106, 106, 0.726);
-   
+    transition: 2s ease-in-out;
 }
 #input1{
     margin-top: 0px;
