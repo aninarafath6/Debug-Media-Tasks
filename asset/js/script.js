@@ -1,3 +1,5 @@
+
+//task day 1
 const btn =document.getElementById("btn");
 const inp1 =document.getElementById("input1");
 const inp2 =document.getElementById("input2");
@@ -54,3 +56,4 @@ let com=setInterval(() => {
 
     }
 }
+//end task day 2

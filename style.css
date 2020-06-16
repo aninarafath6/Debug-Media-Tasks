@@ -1,3 +1,4 @@
+/*task day 1*/
 *{
     box-sizing: border-box;
 }
@@ -24,6 +25,7 @@ body{
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 5px 6px rgba(0, 0, 0,.26);
+    position: relative;
 }
 input{
     padding-top: 10px;
@@ -33,7 +35,7 @@ input{
     outline: none;
     border: none;
     border-bottom: 1px solid rgba(110, 106, 106, 0.726);
-    transition: 2s ease-in-out;
+   
 }
 #input1{
     margin-top: 0px;
@@ -51,9 +53,24 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(6, 112, 173);
     text-decoration: underline;
+    margin-top: 10px;
 transition: 1s ease-in-out;
 }
 input:focus{
     border-bottom: 1px solid rgb(6, 112, 173);
     color: rgb(6, 112, 173);;
 }
+#day{
+    color: rgb(6, 112, 173);
+    position: absolute;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    left:30px;
+    top:-50px;
+    width: 180px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0,.26);
+}
+
+/*task day 1 end*/
